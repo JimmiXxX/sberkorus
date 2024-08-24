@@ -86,7 +86,7 @@
     margin-inline: auto;
 }
 
-.buttons div {
+.buttons li {
     display: flex;
     gap: 50px;
     width: 100%;
@@ -96,7 +96,7 @@
     margin-top: 50px;
 }
 
-.buttons div button {
+.buttons li button {
     padding: 10px 15px;
     border-radius: 50px;
     width: 100%;
@@ -108,10 +108,10 @@
     font-size: 18px;
 }
 
-.buttons div button:first-child {
+.buttons li button:first-child {
     background-color: var(--green);
 }
 
-.buttons div button:last-child {
+.buttons li button:last-child {
     background-color: var(--orange);
 }
