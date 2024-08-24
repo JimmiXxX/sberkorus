@@ -28,7 +28,6 @@ const App = () => {
         <div className="app">
             <Timeline step={ step } completed={ completed } inProgress={ progress } xPosition={xPos} yPosition={yPos}/>
 
-
             <div className="buttons">
                 <div>
                     <button onClick={ incrementStep }>Увеличить шаг</button>
